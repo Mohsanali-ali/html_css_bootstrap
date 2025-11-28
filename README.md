@@ -19,4 +19,4 @@ During my internship at Moboroid, I gained expertise in:
 ### Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/Mohsanali-all/moboroid-internship-projects.git
+git clone https://github.com/Mohsanali-ali/html_css_bootstrap.git
