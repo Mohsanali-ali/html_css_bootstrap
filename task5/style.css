@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: url(imges/78bc69a64b5291f744a3553ebda36f92b6887595.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+    width: 100%;
+}
+
+.main::before {
+    background-color: black;
+    display: block;
+    content: "";
+    opacity: 0.5;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+
+}
+
+.secdiv h1,
+.secdiv h2,
+.secdiv p,
+.maincard .cards,
+.mainbtn,
+.icon {
+    z-index: 12;
+    color: white;
+}
+
+.secdiv h1 {
+    display: flex;
+}
+
+.secdiv h1 span {
+    transform: rotate(6deg);
+    display: block;
+}
+
+
+.mainimg img {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.secdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    gap: 1rem;
+    color: white;
+}
+
+.secdiv h1 {
+    font-size: 45px;
+}
+
+.secdiv h2 {
+    font-size: 30px;
+}
+
+.secdiv p {
+    font-size: 20px;
+    width: 70%;
+    text-align: center;
+}
+
+.secdiv span {
+    background-color: white;
+    color: black;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.smallbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.placediv input::placeholder {
+    align-items: center;
+
+}

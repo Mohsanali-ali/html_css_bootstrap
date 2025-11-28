@@ -1,0 +1,306 @@
+@media (max-width:800px) {
+    .mainheader {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbutton,
+    .navbar {
+        display: none;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .multiplecard {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .multiplecard img {
+        width: 70%;
+    }
+
+    .Industrysec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bodyimg {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .body {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 3rem;
+    }
+
+    .images img {
+        width: 90%;
+    }
+
+    .containercard {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nextcards {
+        width: 70%;
+    }
+
+    .imghp img {
+        width: 100%;
+    }
+
+    .chooseicon {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .series {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+
+    .seriescontent {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .comment {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .seriesbutton {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .imgseries img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-top: 2rem;
+
+    }
+
+    .manfactcontainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .imgmanfact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+
+    }
+
+    .imgmanfact img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .iconlist {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .About {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%
+    }
+
+    .mainabout {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%
+    }
+
+    .aboutlist {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%
+    }
+
+    .aboutimg img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        text-align: center;
+    }
+
+    .newform {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        text-align: center;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+
+
+    }
+
+    .formhp {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+
+
+    }
+
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        text-align: center;
+
+    }
+
+    .informantion {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        text-align: center;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        text-align: center;
+    }
+
+    .footercon h3,
+    .footp p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 150%;
+        text-align: center;
+    }
+
+    /* .footicon i svg {
+        display: flex;
+        flex-direction: row !important;
+        justify-content: center;
+        width: 100%;
+    } */
+    .footerlist {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 150%;
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    .Applications {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 10%;
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    .Company {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    .message textarea {
+        width: 100%;
+    }
+}

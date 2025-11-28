@@ -1,0 +1,683 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+.mainheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+
+
+}
+
+.H1 {
+    background-color: yellow;
+    border-radius: 9px;
+    padding: 4px;
+    margin-bottom: 12px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar select {
+    border: none;
+}
+
+.navbutton button {
+    background-color: yellow;
+    border: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 7px;
+}
+
+.navbutton i {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.firstbanner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+    justify-content: center;
+    gap: 2rem;
+    background-image: url(imges/first-banner.jpg);
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.bannerhp h1 {
+    color: white;
+    padding-bottom: 2rem;
+}
+
+.bannerhp span {
+    color: yellow;
+}
+
+.bannerhp p {
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.firstbanner button {
+    background-color: yellow;
+    border: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 7px;
+
+}
+
+.firstbanner::before {
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    content: " ";
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.bannerhp {
+    z-index: 12;
+    color: white;
+}
+
+.Products {
+    background-color: #F9FAFB;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+    gap: 9px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 30px;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+
+
+
+}
+
+.multiplecard {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    background-color: white;
+    border-radius: 15px;
+    gap: 12px;
+
+}
+
+.multiplecard h2,
+.multiplecard p,
+.multiplecard a {
+    padding-left: 8px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+}
+
+.multiplecard img {
+    width: 25vw;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px
+}
+
+.multiplecard a {
+    color: yellow;
+}
+
+.maindiv {
+    padding-bottom: 70px;
+}
+
+
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+
+.bodyimg {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4rem;
+    padding-right: 4rem;
+
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+    width: 35vw;
+
+}
+
+.images img {
+    width: 35vw;
+    border-radius: 9px;
+}
+
+.contents h2,
+.contents p {
+    border-left: 3px solid yellow;
+    padding-left: 2rem;
+}
+
+.feature {
+    background-color: #F9FAFB
+}
+
+.upper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 50px;
+}
+
+.nextcards {
+    width: 27vw;
+    padding-bottom: 12px;
+    background-color: white;
+    box-shadow: 2px -2px 11px 2px gray;
+    border-radius: 15px;
+
+}
+
+.containercard {
+    display: flex;
+    padding-bottom: 30px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    row-gap: 4rem;
+
+}
+
+.imghp img {
+    width: 27vw;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px
+}
+
+.imghp h2,
+.imghp p,
+.buttonfeature h5 {
+    padding-left: 8px;
+}
+
+.buttonfeature {
+    display: flex;
+    padding-top: 3rem;
+    gap: 8rem;
+}
+
+.buttonfeature button {
+    background-color: yellow;
+    border: none;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.Choose {
+    padding-bottom: 30px;
+}
+
+.explain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+
+}
+
+.chooseicon {
+    display: flex;
+    padding-left: 6rem;
+    gap: 12rem;
+    padding-top: 4rem;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.series {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+}
+
+.seriescontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 35vw;
+    gap: 1rem;
+
+}
+
+.comment {
+    display: flex;
+    padding-top: 12px;
+    column-gap: 1rem;
+}
+
+.imgseries img {
+    width: 35vw;
+    border-radius: 9px;
+}
+
+.seriesbutton button {
+    background-color: yellow;
+    border: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 6px;
+}
+
+.manfact {
+    background-color: #F9FAFB;
+    justify-content: space-around;
+    padding-bottom: 2.5rem;
+}
+
+.manfactdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+    gap: 14px;
+}
+
+.manfactcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.imgmanfact {
+    width: 30vw;
+    background-color: white;
+    margin-top: 4rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-bottom: 35px;
+}
+
+.imgmanfact h4,
+.imgmanfact p {
+    padding-left: 12px;
+    padding-top: 10px;
+}
+
+.imgmanfact img {
+    width: 30vw;
+    border: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/* <!--Certifications & Standards--> */
+.certificate {
+    padding-bottom: 30px;
+}
+
+.certificatecontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+    gap: 1rem;
+
+}
+
+.iconlist {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    align-items: center;
+
+}
+
+.certificateicon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+}
+
+.About {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3rem;
+    background-color: #F9FAFB;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-bottom: 2.5rem;
+}
+
+.mainabout {
+    display: flex;
+    flex-direction: column;
+    width: 32vw;
+    padding-left: 1rem;
+    gap: 1rem;
+}
+
+.aboutimg img {
+    width: 40vw;
+    border-radius: 13px;
+}
+
+.abouticon {
+    display: flex;
+    padding-top: 1rem;
+    gap: 1rem;
+}
+
+.abouthp {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.aboutlist {
+    padding-bottom: 1rem;
+}
+
+.newform {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 2rem;
+    padding-right: 3rem;
+    margin-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.tag {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.tag input {
+    border-radius: 12px;
+    height: 1.5rem;
+}
+
+
+.form {
+    width: 35vw;
+}
+
+#product {
+    height: 2rem;
+    border-radius: 14px;
+}
+
+.message textarea {
+    height: 4rem;
+    border-radius: 16px;
+}
+
+.formhp {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    gap: 1rem;
+
+}
+
+.selectoption {
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    width: 90px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border: none;
+    background-color: yellow;
+    border-radius: 8px;
+}
+
+.formhp p {
+    width: 80%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: space-around;
+}
+
+.informantion {
+    background-color: #F9FAFB;
+    width: 38vw;
+    border-radius: 15px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.infoh {
+    display: flex;
+    padding-left: 1rem;
+
+    padding-bottom: 2rem;
+}
+
+.infocontact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.infoicons {
+    display: flex;
+
+    padding-left: 1rem;
+    gap: 13px;
+}
+
+.follow {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    gap: 2rem;
+}
+
+.first {
+    padding-bottom: 1rem;
+}
+
+.Followicon {
+    gap: 1rem;
+}
+
+.footer {
+    display: flex;
+    background-color: #111827;
+    color: white;
+    padding-left: 3rem;
+    padding-right: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.firstf {
+    width: 20vw;
+
+}
+
+.footercon {
+    display: flex;
+    gap: 12px;
+    padding-bottom: 1rem;
+}
+
+.footercon h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footercon h4 {
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+    border-radius: 7px;
+}
+
+.footp {
+    color: #9CA3AF;
+}
+
+.footicon {
+    padding-top: 1rem;
+
+}
+
+.footerlist {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 5rem;
+
+}
+
+.list p {
+    gap: 20px;
+    padding-bottom: 1rem;
+    color: #9CA3AF;
+}
+
+.Applications {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15rem;
+    gap: 1rem;
+}
+
+.Company {
+    padding-left: 9rem;
+    gap: 1rem;
+}
+
+.companylist {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
